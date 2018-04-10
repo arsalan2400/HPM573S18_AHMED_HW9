@@ -13,7 +13,7 @@ import math as math
 import InputDataAA as Data
 import MarkovModelClassesAA as MarkovCls
 import RandomVariantGenerators as Random
-import ProbDistParEstAA as Est
+import ProbDistParEst as Est
 
 ###First thing we need to do is set our healthstats and therapies. 
 class HealthStats(Enum):
