@@ -127,7 +127,7 @@ class PatientStateMonitor:
 ##Skip to class Cohort####
             
 class Cohort:
-    def __init__(self, id, drug):
+    def __init__(self, id, therapy):
         """ create a cohort of patients
         :param id: an integer to specify the seed of the random number generator
         """
