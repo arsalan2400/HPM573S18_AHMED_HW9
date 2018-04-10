@@ -203,7 +203,7 @@ class CohortOutputs:
     def get_sumStat_survival_times(self):
         return self._sumStat_survivalTime
 
-    def get_sumStat_timeToSTROKE(self):
+    def get_sumState_timeToSTROKE(self):
         return self._sumState_timeToSTROKE
 
     def get_survival_curve(self):
