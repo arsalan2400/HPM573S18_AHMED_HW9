@@ -19,9 +19,9 @@ import numpy as np
 import scipy.stats as stat
 import math as math
 import InputDataAA as Data
-import MarkovModelClasses as MarkovCls
-import RandomVariantGenerators as Random
-import ProbDistParEst as Est
+import MarkovModelClassesAA as MarkovCls
+import RandomVariantGeneratorsAA as Random
+import ProbDistParEstAA as Est
 
 ###First thing we need to do is set our healthstats and therapies. 
 class HealthStats(Enum):
