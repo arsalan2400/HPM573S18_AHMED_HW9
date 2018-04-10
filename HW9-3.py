@@ -7,11 +7,11 @@ Created on Sun Apr 08 11:30:06 2018
 """
 ###HW9-3######
 
-import ParameterClasses as P
-import MarkovModelClasses as MarkovCls
+import ParameterClassesAA as P
+import MarkovModelClassesAA as MarkovCls
 import SamplePathClasses as PathCls
 import FigureSupport as Figs
-import InputData as Data
+import InputDataAA as Data
 import FormatFunctions as F
 
 
