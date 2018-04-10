@@ -7,7 +7,7 @@ Created on Sun Apr 08 12:42:06 2018
 """
 ###HW9-5######
 
-import ParameterClasses as P
+import ParameterClassesAA as P
 import MarkovModelClassesAA as MarkovCls
 import SamplePathClasses as PathCls
 import FigureSupport as Figs
