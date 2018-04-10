@@ -12,7 +12,7 @@ import scipy.stats as stat
 import math as math
 import InputDataAA as Data
 import MarkovModelClassesAA as MarkovCls
-import RandomVariantGeneratorsAA as Random
+import RandomVariantGenerators as Random
 import ProbDistParEstAA as Est
 
 ###First thing we need to do is set our healthstats and therapies. 
