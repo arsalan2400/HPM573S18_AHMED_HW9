@@ -138,9 +138,13 @@ class Cohort:
         # populate the cohort
         for i in range(self._initial_pop_size):
             # create a new patient (use id * pop_size + i as patient id)
-            patient = Patient(id * self._initial_pop_size + i, P.ParametersFixed(therapy))
+            if INPUT.PSA_ON:
+                patient = Patient(id * self._initial_pop_size + i, P.ParametersProbabilistic(i, therapy))
+            else:
+                patient = Patient(id * self._initial_pop_size + i, P.ParametersFixed(therapy))
             # add the patient to the cohort
             self._patients.append(patient)
+           
 
 ##Below is the same....####
     def simulate(self):
