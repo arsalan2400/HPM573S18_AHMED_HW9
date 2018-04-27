@@ -10,7 +10,7 @@ Created on Sun Apr 08 12:42:06 2018
 import ParameterClassesAA as P
 import MarkovModelClassesAA as MarkovCls
 import scr.SamplePathClasses as PathCls
-import FigureSupport as Figs
+import scr.FigureSupport as Figs
 import InputDataAA as Data
 import scr.FormatFunctions as F
 
