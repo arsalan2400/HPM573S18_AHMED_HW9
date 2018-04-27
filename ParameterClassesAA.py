@@ -20,8 +20,8 @@ import scipy.stats as stat
 import math as math
 import InputDataAA as Data
 import MarkovModelClassesAA as MarkovCls
-import RandomVariantGeneratorsAA as Random
-import ProbDistParEstAA as Est
+import scr.RandomVariantGenerators as Random
+import scr.ProbDistParEst as Est
 
 ###First thing we need to do is set our healthstats and therapies. 
 class HealthStats(Enum):
