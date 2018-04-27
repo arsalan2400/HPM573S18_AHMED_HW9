@@ -9,10 +9,10 @@ Created on Mon Apr 09 12:22:06 2018
 
 import ParameterClassesAA as P
 import MarkovModelClassesAA as MarkovCls
-import SamplePathClasses as PathCls
-import FigureSupport as Figs
+import scr.SamplePathClasses as PathCls
+import scr.FigureSupport as Figs
 import InputDataAA as Data
-import FormatFunctions as F
+import scr.FormatFunctions as F
 
 #get mean number of strokes without the drug
 cohort = MarkovCls.Cohort(id= 0, therapy = P.Therapies.withoutdrug)
