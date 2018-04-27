@@ -4,8 +4,8 @@ import scipy.stats as stat
 import math as math
 import InputData as Data
 import MarkovModelClasses as MarkovCls
-import RandomVariantGenerators as Random
-import ProbDistParEst as Est
+import scr.RandomVariantGenerators as Random
+import scr.ProbDistParEst as Est
 
 
 class HealthStats(Enum):
