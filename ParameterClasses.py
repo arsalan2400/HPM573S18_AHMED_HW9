@@ -2,8 +2,8 @@ from enum import Enum
 import numpy as np
 import scipy.stats as stat
 import math as math
-import InputData as Data
-import MarkovModelClasses as MarkovCls
+import InputDataAA as Data
+import MarkovModelClassesAA as MarkovCls
 import scr.RandomVariantGenerators as Random
 import scr.ProbDistParEst as Est
 
