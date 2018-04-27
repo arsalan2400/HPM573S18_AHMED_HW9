@@ -9,10 +9,10 @@ Created on Sun Apr 08 12:42:06 2018
 
 import ParameterClassesAA as P
 import MarkovModelClassesAA as MarkovCls
-import SamplePathClasses as PathCls
+import scr.SamplePathClasses as PathCls
 import FigureSupport as Figs
 import InputDataAA as Data
-import FormatFunctions as F
+import scr.FormatFunctions as F
 
 ##this is a copy from the supportmarkov.py and is essentially what's in Q3, but we run it with the new drug instead of no drug ####
 Adjusted_Cohort = MarkovCls.Cohort(id=0, therapy=P.Therapies.newdrug)
