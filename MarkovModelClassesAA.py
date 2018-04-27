@@ -5,10 +5,10 @@ Created on Fri Apr  6 14:18:30 2018
 
 @author: Aslan
 """
-import SamplePathClasses as PathCls
-import StatisticalClasses as StatCls
-import RandomVariantGenerators as rndClasses
-import EconEvalClasses as EconCls
+import scr.SamplePathClasses as PathCls
+import scr.StatisticalClasses as StatCls
+import scr.RandomVariantGenerators as rndClasses
+import scr.EconEvalClasses as EconCls
 import ParameterClassesAA as P
 import InputDataAA as INPUT
 
