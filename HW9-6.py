@@ -9,10 +9,10 @@ Created on Mon Apr 09 09:42:06 2018
 
 import ParameterClassesAA as P
 import MarkovModelClassesAA as MarkovCls
-import SamplePathClasses as PathCls
-import FigureSupport as Figs
+import scr.SamplePathClasses as PathCls
+import scr.FigureSupport as Figs
 import InputDataAA as Data
-import FormatFunctions as F
+import scr.FormatFunctions as F
 
 
 #First, run the graph without the drug. This is from SamplePathclasses.py#
